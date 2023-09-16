@@ -10,7 +10,6 @@
 		B03010F220A9372A00A73FAD /* bouncesaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = B03010F120A9372A00A73FAD /* bouncesaverView.h */; };
 		B03010F420A9372A00A73FAD /* bouncesaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03010F320A9372A00A73FAD /* bouncesaverView.m */; };
 		B0D8289020A977FE00271B62 /* dvdlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D8288F20A977FE00271B62 /* dvdlogo.png */; };
-		B0EF8CBF20A97B580090B0D8 /* dvdlogo.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = B0D8288F20A977FE00271B62 /* dvdlogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,7 +19,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				B0EF8CBF20A97B580090B0D8 /* dvdlogo.png in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +271,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = bouncesaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				PRODUCT_BUNDLE_IDENTIFIER = euler.bouncesaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
@@ -286,6 +285,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = bouncesaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				PRODUCT_BUNDLE_IDENTIFIER = euler.bouncesaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
