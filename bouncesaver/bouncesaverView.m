@@ -28,8 +28,8 @@
         const int speed = WIDTH / (10.0 * fps); // adjust to any resolution.
         // makes the logo travel across the screen in 10 seconds.
        
-        self.dvdWidth = 512;
-        self.dvdHeight = 256;
+        self.dvdWidth = 312;
+        self.dvdHeight = 156;
         self.x = WIDTH / 2.0 - self.dvdWidth / 2.0;
         self.y = HEIGHT / 2.0 - self.dvdHeight / 2.0;
         self.dirtyRect = NSMakeRect(self.x, self.y, self.dvdWidth, self.dvdHeight);
@@ -60,7 +60,7 @@
 
 - (void)drawRect:(NSRect)rectParam
 {
-    const float g = 32.0f/255.0f;
+    const float g = 0.0f/255.0f;
     [[NSColor colorWithRed:g green:g blue:g alpha:1.0f] setFill];
     NSRectFill(rectParam);
     NSRect rect;
